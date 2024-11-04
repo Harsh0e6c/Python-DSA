@@ -1,0 +1,21 @@
+#write the code for the finding floor(sqrt(N))
+
+l = 0
+r = n
+result = -1
+
+while l<=r:
+
+  mid = (l+r)//2
+
+if mid*mid<=N:
+  result = mid
+  l = mid+1
+
+else:
+  mid*mid>N:
+  h = mid-1
+
+return result
+
+	
